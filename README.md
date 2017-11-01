@@ -60,7 +60,6 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
 If you have questions, give a shout in the Discussion section. If you use this class, 
 do send me a link to your app I'd love to see what you created with it. 
 
-Thanks,
-GeneCode.
+-GeneCode-
 
 Check out my [XCode Tutorial Blog!](https://xcodenoobies.blogspot.com "XCode Tutorial Blog")
