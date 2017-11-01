@@ -17,7 +17,7 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
 3. `#import "GCToolBar.h"` in your header file.
 4. Implement the `GCToolBarDelegate`.
 5. In `viewDidLoad` of your viewController, add the following code to create the toolbar:
-
+```obj-c
     // define the colors
     NSArray *colors = @[[UIColor grayColor],//GC_BUTTON_COLOR,
                         [UIColor lightGrayColor],//GC_BUTTON_BORDER_COLOR,
@@ -46,12 +46,12 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
     normalBar.selectable = YES;
     [self.view addSubview:normalBar];
     [normalBar selectButtonAtIndex:2]; // initial selection`
-
+```
 6. Implement delegate function:
-
+```obj-c
     -(void)GCToolBarButton:(GCToolBar *)toolBar didClickedAtIndex:(NSInteger)index {
     
     }
-
+```
 7. Done!
 
