@@ -14,11 +14,11 @@ Easy to use.
 1. Drag GCToolBar.m and .h to your Project in XCode.
 2. Add a placeholder UIView in your storyboard where you want the bar to appear. Add
 the constraints accordingly. Connect IBOutlet of this view into your header file.
-3. #import "GCToolBar.h" in your header file.
+3. `#import "GCToolBar.h"` in your header file.
 4. Implement the GCToolBarDelegate.
 5. In viewDidLoad of your viewController, add the following code to create the toolbar:
 
-    // define the colors
+    `// define the colors
     NSArray *colors = @[[UIColor grayColor],//GC_BUTTON_COLOR,
                         [UIColor lightGrayColor],//GC_BUTTON_BORDER_COLOR,
                         [UIColor cyanColor],//GC_BUTTON_INDICATOR,
@@ -45,13 +45,13 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
     // This to specify that you want selectable type.
     normalBar.selectable = YES;
     [self.view addSubview:normalBar];
-    [normalBar selectButtonAtIndex:2]; // initial selection
+    [normalBar selectButtonAtIndex:2]; // initial selection`
 
 6. Implement delegate function:
 
--(void)GCToolBarButton:(GCToolBar *)toolBar didClickedAtIndex:(NSInteger)index {
+`-(void)GCToolBarButton:(GCToolBar *)toolBar didClickedAtIndex:(NSInteger)index {
     
-}
+}`
 
 7. Done!
 
