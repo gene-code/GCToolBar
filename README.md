@@ -15,10 +15,10 @@ Easy to use.
 2. Add a placeholder UIView in your storyboard where you want the bar to appear. Add
 the constraints accordingly. Connect IBOutlet of this view into your header file.
 3. `#import "GCToolBar.h"` in your header file.
-4. Implement the GCToolBarDelegate.
-5. In viewDidLoad of your viewController, add the following code to create the toolbar:
+4. Implement the `GCToolBarDelegate`.
+5. In `viewDidLoad` of your viewController, add the following code to create the toolbar:
 
-    `// define the colors
+    // define the colors
     NSArray *colors = @[[UIColor grayColor],//GC_BUTTON_COLOR,
                         [UIColor lightGrayColor],//GC_BUTTON_BORDER_COLOR,
                         [UIColor cyanColor],//GC_BUTTON_INDICATOR,
@@ -49,9 +49,9 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
 
 6. Implement delegate function:
 
-`-(void)GCToolBarButton:(GCToolBar *)toolBar didClickedAtIndex:(NSInteger)index {
+    -(void)GCToolBarButton:(GCToolBar *)toolBar didClickedAtIndex:(NSInteger)index {
     
-}`
+    }
 
 7. Done!
 
