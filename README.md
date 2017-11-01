@@ -1,7 +1,7 @@
 # GCToolBar
 A flexible toolbar with optional selection indicator
 
-<img src="sample.gif" size=50%>
+<img src="sample.gif" width=150>
 
 # Introduction
 GCToolBar was created for my own usage in my apps. I needed a flexible toolbar that can also
