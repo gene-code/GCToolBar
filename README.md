@@ -1,7 +1,7 @@
 # GCToolBar
 A flexible toolbar with optional selection indicator
 
-<img src="sample.gif" width=150>
+<img src="sample.gif" width=200>
 
 # Introduction
 GCToolBar was created for my own usage in my apps. I needed a flexible toolbar that can also
@@ -55,3 +55,12 @@ the constraints accordingly. Connect IBOutlet of this view into your header file
 ```
 7. Done!
 
+# Feedback
+
+If you have questions, give a shout in the Discussion section. If you use this class, 
+do send me a link to your app I'd love to see what you created with it. 
+
+Thanks,
+GeneCode.
+
+Check out my [XCode Tutorial Blog!](https://xcodenoobies.blogspot.com "XCode Tutorial Blog")
